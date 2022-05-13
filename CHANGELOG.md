@@ -17,10 +17,15 @@ Note that this project **does not** adhere to [Semantic Versioning](http://semve
 ### Changed
 
 - We improved the Latex2Unicode conversion [#8639](https://github.com/JabRef/jabref/pull/8639)
+- Writing BibTeX data into a PDF (XMP) removes braces. [#8452](https://github.com/JabRef/jabref/issues/8452)
+- Writing BibTeX data into a PDF (XMP) does not write the `file` field.
+- Writing BibTeX data into a PDF (XMP) considers the configured keyword separator (and does not use "," as default any more)
 
 ### Fixed
 
+- We fixed the unnecessary horizontal scroll bar in group panel [#8467](https://github.com/JabRef/jabref/issues/8467)
 - We fixed an issue where the notification bar message, icon and actions appeared to be invisible. [#8761](https://github.com/JabRef/jabref/issues/8761)
+- We fixed an issue where deprecated fields tab is shown when the fields don't contain any values. [#8396](https://github.com/JabRef/jabref/issues/8396)
 
 ### Removed
 
